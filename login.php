@@ -13,10 +13,12 @@ if(mysqli_num_rows($sql)>0){
        while($j=mysqli_fetch_array($sql))
            {
                $aid=$j['id'];
+            $name=$j['name'];
               
            }
    echo 'done';
            $_SESSION['admin_id']=$aid;
+           $_SESSION['name']=$name;
   header("location:index.php");
 }
 else{

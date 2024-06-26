@@ -101,14 +101,14 @@ $( function () {
 	Morris.Donut( {
 		element: 'morris-donut-chart',
 		data: [ {
-			label: "Download Sales",
+			label: "Red Soil",
 			value: 12,
 
         }, {
-			label: "In-Store Sales",
+			label: "Black Soil",
 			value: 30
         }, {
-			label: "Mail-Order Sales",
+			label: "Alluvial soil",
 			value: 20
         } ],
 		resize: true,
