@@ -77,9 +77,9 @@ else{
                                             <button type="submit" class="btn btn-primary btn-block">Sign me in</button>
                                         </div>
                                     </form>
-                                    <div class="new-account mt-3">
+                                    <!-- <div class="new-account mt-3">
                                         <p>Don't have an account? <a class="text-primary" href="./page-register.html">Sign up</a></p>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
